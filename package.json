@@ -1,0 +1,33 @@
+{
+  "name": "node-mavenlink",
+  "version": "0.0.1",
+  "description": "A NodeJS Wrapper for Mavenlink API using HTTP Requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dannycampa@github.com/dannycampa/node-mavenlink.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "mavenlink",
+    "api",
+    "wrapper"
+  ],
+  "author": "Dannycampa and Davel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannycampa/node-mavenlink/issues"
+  },
+  "homepage": "https://github.com/dannycampa/node-mavenlink",
+  "devDependencies": {
+    "should": "^4.6.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "node-qs-serialization": "0.0.2",
+    "request": "^2.51.0"
+  }
+}
