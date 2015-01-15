@@ -1,11 +1,16 @@
 # node-mavenlink
 A NodeJS wrapper for the Mavenlink API using HTTP requests.
+
+Mavenlink API: http://developer.mavenlink.com/
+
 # Get started
+## Requiring
 Start by requiring the module:
 ```
 var Maven = require('node-mavenlink');
 ```
-Then you need to instantiate the class with your Mavenlink API Access Token
+## Instantiating
+This module is a class so you must instantiate the class with your Mavenlink API Access Token. Optionally you can pass a url and version.
 ```
 var mav = new Maven('kjh1235k74389123kje1r293ne1981d');
 ```
@@ -31,5 +36,5 @@ mav.get('users.json', { on_my_account: true }, function(err, users){
 ## POST Syntax
 To make a POST request use the following:
 ```
-mav.get(endpoint, data, callback)
+mav.post(endpoint, data, callback)
 ```
