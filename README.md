@@ -38,3 +38,6 @@ To make a POST request use the following:
 ```
 mav.post(endpoint, data, callback)
 ```
+
+# Special Thanks
+Dave Levy for an awesome PoC on the Mavenlink API.
