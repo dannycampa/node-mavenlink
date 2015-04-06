@@ -32,12 +32,27 @@ mav.get('users.json', { on_my_account: true }, function(err, users){
     }
 });
 ```
-# POST (Not tested, will verify by 01/16/15)
+# POST
 ## POST Syntax
 To make a POST request use the following:
 ```
 mav.post(endpoint, data, callback)
 ```
+
+# PUT
+## PUT Syntax
+To make a PUT request use the following:
+```
+mav.put(endpoint, data, callback)
+```
+
+# DELETE
+## DELETE Syntax
+To make a DELETE request use the following:
+```
+mav.del(endpoint, callback)
+```
+
 
 # Special Thanks
 Dave Levy for an awesome PoC on the Mavenlink API.
