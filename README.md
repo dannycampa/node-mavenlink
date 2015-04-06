@@ -39,14 +39,14 @@ To make a POST request use the following:
 mav.post(endpoint, data, callback)
 ```
 
-### PUT
+# PUT
 ## PUT Syntax
 To make a PUT request use the following:
 ```
 mav.put(endpoint, data, callback)
 ```
 
-### DELETE
+# DELETE
 ## DELETE Syntax
 To make a DELETE request use the following:
 ```
